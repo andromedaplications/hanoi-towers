@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hanoi Kuleleri</string>
+    <string name="hakkimizda">HAKKIMIZDA</string>
+    <string name="bilgi">Andromeda popüler kültürü baz alarak kullanımı kolay, güvenli, modern arayüzlü ve açık kaynak kodlu uygulamalar geliştirir. İstek ve önerileriniz için lütfen iletişime geçin.</string>
+    <string name="copyright">Andromeda Applications © Copyright 2020 - 2021</string>
+    <string name="email">andromedapplication@gmail.com</string>
+    <string name="github">https://github.com/andromedaplications/hanoi-towers</string>
+</resources>

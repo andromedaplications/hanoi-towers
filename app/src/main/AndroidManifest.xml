@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andromedapplications.hanoi_towers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.andromedapplications.hanoi_towers.Ana_ekran"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.andromedapplications.hanoi_towers.Nasil_oynanir"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.andromedapplications.hanoi_towers.Seviyeler"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.andromedapplications.hanoi_towers.Oyna"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.andromedapplications.hanoi_towers.Hakkimizda"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+
+</manifest>

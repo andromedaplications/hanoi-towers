@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TemaDuzenle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#e76f51</item>
+        <item name="android:background">#f9f8f6</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buton_orta"
+        android:onClick="medium"
+        android:text="Orta"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/medium"
+        android:layout_alignLeft="@+id/medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buton_kolay"
+        android:onClick="easy"
+        android:text="Kolay"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medium"
+        android:layout_alignLeft="@+id/medium"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buton_zor"
+        android:onClick="hard"
+        android:text="Zor"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
